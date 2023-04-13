@@ -1,6 +1,7 @@
 body {
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(14,18,20,1) 100%);
-  max-width: 900px;
+  max-width: 1100px;
+  margin: 0 auto;
 }
 .header {
   display: flex;
@@ -212,8 +213,7 @@ body {
   margin-left: 96px;
   margin-bottom: 200px;
 }
-.biography {
-}
+
 .biography__date {
   display: flex;
   justify-content: space-between;
@@ -223,20 +223,18 @@ body {
 .date {
   color: #fff;
   font-size: 24px;
+  line-height: 50px;
 }
-.biography__line {
-  background-image: url(../img/timeline.svg);
-  height: 32px;
-  width: 1000px;
-  margin: 0 auto;
-}
+
 .biography__inform {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  margin: 0 auto;
+  margin: 20px auto 0;
 }
+
 .inform {
+  width: 350px;
   color: #fff;
   margin: 0 30px;
 }
