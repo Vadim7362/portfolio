@@ -39,6 +39,7 @@ body {
 }
 .menu {
   list-style-type: none;
+  text-align: center;
 }
 .header__navigation {
   text-decoration: none;
@@ -58,7 +59,7 @@ body {
 .information {
   display: flex;
   flex-direction: column;
-  margin-left: 96px;
+  margin-left: 40px;
   min-height: 400px;
 }
 .title {
@@ -84,16 +85,18 @@ body {
   color: white;
   margin-left: 80px;
 }
+
 .projects {
-  margin-left: 96px;
+  margin-left: 40px;
 }
+
 .project__cards {
-  margin-left: 108px;
+  margin: 20px 0 0 50px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-
 }
+
 .project__card {
   border: 1px solid white;
   width: 420px;
@@ -134,12 +137,11 @@ body {
   color: white;
 }
 .technologies {
-  margin-left: 96px;
+  margin-left: 40px;
 }
-.technologies__tables {
-}
+
 .technologies__table {
-  margin-left: 108px;
+  margin-left: 50px;
   max-width: 1320px;
 }
 .technology {
@@ -210,7 +212,7 @@ body {
   margin-bottom: 50px;
 }
 .aboutMe {
-  margin-left: 96px;
+  margin-left: 50px;
   margin-bottom: 200px;
 }
 
@@ -262,6 +264,104 @@ body {
   list-style-type: none;
 }
 
-@media (max-width) {
+@media (max-width: 1024px) {
+  body {
+    width: 900px;
+  }
+  .title {
+    margin-top: 100px;
+}
+  .projects {
+    margin-left: 0;
+  }
+  .project__cards {
+    margin: 10px auto 0;
+  }
+  .technologies {
+    margin-left: 0;
+}
+  .technologies__table {
+    margin-left: 0;
+  }
+  .technology {
+    width: 900px;
+  }
+}
 
+@media (max-width: 768px) {
+  body{
+    width: 700px;
+  }
+  .header {
+    margin-top: 20px;
+  }
+  .title {
+    margin-top: 50px;
+    font-size: 36px;
+  }
+  .subtitle {
+    font-size: 26px;
+  }
+  .logo {
+    margin-left: 10px;
+    height: 50px;
+    margin-top: 5px;
+}
+  .logo__header {
+    width: 40px;
+    height: 40px;
+  }
+  .logo__name {
+    font-size: 22px;
+  }
+  .header__menu {
+    width: 400px;
+  }
+  .header__list {
+  margin-top: 5px;
+  }
+  .menu {
+    width: 120px;
+  }
+  .header__navigation {
+    font-size: 22px;
+  }
+  .header__link {
+    margin-top: 5px;
+  }
+  .button {
+    width: 200px;
+    height: 60px;
+    border-radius: 83px;
+    font-size: 26px;
+  }
+  .technology {
+    display: flex;
+    width: 700px;
+    height: 100px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+  }
+  .technology__title {
+    font-size: 22px;
+  }
+  .technology__subtitle {
+    font-size: 18px;
+  }
+  .skills__table {
+    margin-top: 90px;
+  }
+  .skill {
+    font-size: 20px;
+    width: 200px;
+  }
+  .contacts {
+    font-size: 20px;
+    margin: 0 20px;
+  }
+  .footer__link {
+    margin: 0 30px;
+    padding: 0;
+  }
 }
