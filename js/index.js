@@ -1,3 +1,3 @@
-document.getElementById("reports"). onclick = function () {
+document.getElementById("info-button"). onclick = function () {
   document.getElementById("contacts").scrollIntoView({behavior: "smooth"});
 };
