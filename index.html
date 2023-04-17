@@ -9,32 +9,39 @@
   <title>VadimCherepanov</title>
 </head>
 <body>
-  <header class="header">
-    <div class="logo">
-      <img class="logo__header" src="img/logo-2.png" alt="logo icon">
-      <p class="logo__name">Portfolio</p>
+  <header class="header open">
+    <div class="container header__container">
+      <button class="header__burger-btn" id="burger">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="logo">
+        <img class="logo__header" src="img/logo-2.png" alt="logo icon">
+        <p class="logo__name">Portfolio</p>
+      </div>
+      <div class="menu__container">
+        <nav class="header__menu">
+          <ul class="header__list">
+            <li class="menu__list"><a href="#projects" class="header__navigation">Projects</a></li>
+            <li class="menu__list"><a href="#technologies" class="header__navigation">Technologies</a></li>
+            <li class="menu__list"><a href="#aboutMe" class="header__navigation">About me</a></li>
+          </ul>
+        </nav>
+        <nav class="header__social">
+          <ul class="header__link">
+            <li>
+              <a href="https://github.com/Vadim7362" class="header__link link" target="blank">
+                <img src="img/mark-github-24.png" alt="icon github">
+              </a>
+            </li class="menu__list">
+            <li>
+              <a href="https://www.figma.com/files/recent?fuid=1108133367932766220" class="header__link link" target="blank">
+                <img src="img/Figma.png" alt="icon figma">
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </div>
-    <nav class="header__menu">
-      <ul class="header__list">
-        <li class="menu"><a href="#projects" class="header__navigation">Projects</a></li>
-        <li class="menu"><a href="#technologies" class="header__navigation">Technologies</a></li>
-        <li class="menu"><a href="#aboutMe" class="header__navigation">About me</a></li>
-      </ul>
-    </nav>
-    <nav class="header__social">
-      <ul class="header__link">
-        <li>
-          <a href="https://github.com/Vadim7362" class="header__link link" target="blank">
-            <img src="img/mark-github-24.png" alt="icon github">
-          </a>
-        </li>
-        <li>
-          <a href="https://www.figma.com/files/recent?fuid=1108133367932766220" class="header__link link" target="blank">
-            <img src="img/Figma.png" alt="icon figma">
-          </a>
-        </li>
-      </ul>
-    </nav>
   </header>
   <section class="information">
     <h2 class="title">Cherepanov Vadim</h2>
