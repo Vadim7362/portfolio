@@ -374,7 +374,7 @@ body {
     position: absolute;
     left: -450px;
     top: 0;
-    background-color: blueviolet;
+    background-color: black;
     padding: 75px 20px 20px;
     width: 350px;
     transition: transform .3s;
