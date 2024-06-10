@@ -441,6 +441,9 @@ body {
     margin: 0 30px;
     padding: 0;
   }
+  .footer__list {
+    display: flex;
+  }
 
 
 @media (max-width: 425px) {
