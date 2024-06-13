@@ -137,6 +137,7 @@ body {
   font-size: 28px;
   color: white;
   margin-left: 80px;
+  cursor: pointer;
 }
 
 .projects {
@@ -188,6 +189,7 @@ body {
   border-radius: 83px;
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(48,88,142,1) 30%, rgba(0,212,255,1) 100%);
   color: white;
+  cursor: pointer;
 }
 .technologies {
   margin-left: 40px;
